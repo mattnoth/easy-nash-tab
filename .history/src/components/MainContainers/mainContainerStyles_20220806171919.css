@@ -1,0 +1,6 @@
+.mainContainer {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}

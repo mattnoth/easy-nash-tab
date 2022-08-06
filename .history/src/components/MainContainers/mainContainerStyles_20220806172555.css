@@ -1,0 +1,16 @@
+.mainContainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.oneLine {
+    border: 1px dotted red;
+    padding: 1rem;
+}
+
+.chordContainer {
+    border: 2px solid blue;
+    padding: 1rem;
+}

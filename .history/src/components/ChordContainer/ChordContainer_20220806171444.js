@@ -2,7 +2,7 @@ import React from 'react';
 
 function ChordContainer({ line }) {
     return (
-        <div className="chordContainer">
+        <div>
             this is chord container {line?.currentId}
         </div>
     );

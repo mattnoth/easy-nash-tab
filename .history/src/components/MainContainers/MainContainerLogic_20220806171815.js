@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from 'react';
 import { bennieAndTheJets } from '../../data/BennieAndTheJets'
 import Main from '../MainContainers/Main.js'
-import './mainContainerStyles.css'
+import 'mainContainerStyles.css'
 
 
 function MainContainerLogic(props) {

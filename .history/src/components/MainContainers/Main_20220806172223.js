@@ -8,9 +8,10 @@ function Main({ line }) {
         <div className="oneLine">
             <ChordContainer
                 line={line}
-
+                className="chordContainer"
             />
             <LyricContainer
+                className="lyricContainer"
                 line={line} />
         </div>
     );
