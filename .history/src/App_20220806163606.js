@@ -1,5 +1,5 @@
 import './App.css';
-import MainContainerLogic from './components/MainContainers/MainContainerLogic.js';
+import MainContainer from './components/MainContainers/MainContainerLogic.js';
 
 function App() {
   return (

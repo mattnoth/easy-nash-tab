@@ -1,11 +1,11 @@
 import './App.css';
-import MainContainerLogic from './components/MainContainers/MainContainerLogic.js';
+import MainContainer from './components/MainContainers/MainContainer.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MainContainerLogic />
+        <MainContainer />
       </header>
     </div>
   );
