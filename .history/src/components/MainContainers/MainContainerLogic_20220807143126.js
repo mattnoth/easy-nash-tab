@@ -78,6 +78,7 @@ function MainContainerLogic(props) {
     return (
         <>
             <div className="mainContainer">
+                main container
                 {
                     currentLine.map((line) => {
                         if (line?.currentId === 0) {

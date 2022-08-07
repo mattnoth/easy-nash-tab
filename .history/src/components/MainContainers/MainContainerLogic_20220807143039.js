@@ -74,10 +74,10 @@ function MainContainerLogic(props) {
         })
     }
 
-    /** @return main container, checks and returns on line 0, map each line to div and send props */
     return (
         <>
             <div className="mainContainer">
+                main container
                 {
                     currentLine.map((line) => {
                         if (line?.currentId === 0) {

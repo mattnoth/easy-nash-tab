@@ -7,17 +7,10 @@ import './mainContainerStyles.css'
 
 function MainContainerLogic(props) {
 
-    /** 
-     * @states 
-     * @fullLyricString 
-     * @lyricArray initial arr of split lyrics 
-     * @currentLine Object with current lines - probably needs a better name
-     */
     const [fullLyricString, setFullLyricsString] = useState('')
     const [lyricArray, setLyricArray] = useState([])
     const [currentLine, setCurrentLine] = useState([]);
 
-    // temp @var for objects 
     let tempLyrics;
 
     /**
@@ -58,7 +51,7 @@ function MainContainerLogic(props) {
         splitLyrics(fullLyricString);
     }
 
-    /** @conditional after array set, remove first empty line, run @createObject on lyric array*/
+    /** @conditional after array set, remove first empty line */
     if (lyricArray.length > 0) {
         if (lyricArray[0]) {
             return;
@@ -67,17 +60,16 @@ function MainContainerLogic(props) {
         }
     }
 
-    /** @check if tempLyrics, map each line's obj to an arr of objects  */
     if (tempLyrics) {
         tempLyrics.map((line) => {
             currentLine.push(line);
         })
     }
 
-    /** @return main container, checks and returns on line 0, map each line to div and send props */
     return (
         <>
             <div className="mainContainer">
+                main container
                 {
                     currentLine.map((line) => {
                         if (line?.currentId === 0) {
