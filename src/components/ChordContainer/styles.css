@@ -1,0 +1,8 @@
+.chordContainer {
+    display: flex;
+}
+
+.chordToDisplay {
+    height: 50px;
+    width: 50px;
+}
