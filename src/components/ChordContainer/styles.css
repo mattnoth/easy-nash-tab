@@ -1,0 +1,20 @@
+.chordContainer {
+	/* display: flex;
+	justify-content:flex-start; */
+	width: max-content;
+	border: 0.5px solid white;
+	padding: 0.05rem;
+	/* display: grid; */
+	margin: auto;
+	display: flex;
+}
+.oneChord {
+	/* border: 1px solid pink; */
+	-webkit-appearance: none;
+}
+
+.react-draggable {
+	border: 0.02px solid #9c84ff;
+	max-width: max-content;
+	-webkit-appearance: none;
+}

@@ -1,23 +1,18 @@
 .mainContainer {
-    padding: .4rem;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid white;
-    min-width: 100vw;
+	padding: 0.4rem;
+	display: flex;
+	flex-direction: column;
+	min-width: 100vw;
 }
 
-.oneLine {
-    border: 2px dotted white;
-    padding: 1rem;
-    display: inline;
-}
-
-.chordContainer {
-    border: 2px solid blue;
-    padding: .05rem;
+.section {
+	padding: 1rem;
+	display: inline;
 }
 
 .lyricContainer {
-    border: 2px solid green;
-    padding: 0.5 rem;
+	border: 0.5px solid white;
+	padding: 0.5 rem;
+	width: max-content;
+	margin: auto;
 }

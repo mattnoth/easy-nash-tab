@@ -1,16 +1,15 @@
 import './App.css';
-import MainContainerLogic from './components/MainContainers/MainContainerLogic.js';
+import Main from './components/MainContainers/Main.js';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+	return (
+		<div className='App'>
+			{/* <header className="App-header">
         Header
-      </header>
-      <MainContainerLogic />
-
-    </div>
-  );
+      </header> */}
+			<Main />
+		</div>
+	);
 }
 
 export default App;
