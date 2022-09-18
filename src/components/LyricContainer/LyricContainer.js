@@ -1,11 +1,7 @@
 import React from 'react';
 
-function LyricContainer({ line }) {
-    return (
-        <div
-            className="lyricContainer"> {line?.lyric}
-        </div>
-    );
+function LyricContainer({ lyrics }) {
+	return <div className='lyricContainer'> {lyrics}</div>;
 }
 
 export default LyricContainer;
