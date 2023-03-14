@@ -1,13 +1,46 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.outer_container {
+	border: 1px solid red;
+}
+
+.mainContainer {
+	padding: 0.4rem;
+	display: flex;
+	flex-direction: column;
+	min-width: 100vw;
+}
+
+.section {
+	padding: 1rem;
+	display: inline;
+}
+
+.lyricContainer {
+	border: 0.5px solid white;
+	padding: 0.5 rem;
+	width: max-content;
+	margin: auto;
+}
+
+.chord_container {
+	border: 1px solid blue;
+	position: relative;
+	height: 25px;
+}
+
+.chord {
+	position: absolute;
 }

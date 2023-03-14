@@ -1,0 +1,8 @@
+.one-line {
+	padding-right: 8px;
+	display: inline-block;
+}
+
+.one-line:last-child {
+	padding-right: 0px;
+}

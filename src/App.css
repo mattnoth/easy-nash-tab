@@ -23,3 +23,7 @@
 	height: 40vmin;
 	pointer-events: none;
 }
+
+outer_container {
+	border: 1px solid red;
+}
