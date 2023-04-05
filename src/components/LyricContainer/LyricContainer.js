@@ -1,10 +1,9 @@
 import React from 'react';
 
-import './styles.css';
+import '../../App.css';
 
 function LyricContainer({ lyrics, chords }) {
 	const lyricArray = lyrics?.split(' ');
-
 
 	const findChordByPosition = (position, chords) => {
 		return chords.find((c) => c.position === position)?.chordName;
@@ -14,11 +13,26 @@ function LyricContainer({ lyrics, chords }) {
 
 	return (
 		<div className='lyricContainer'>
+			{/* <div className='chord_container'>
+				<span
+					className='chord'
+					style={{
+						top: '2px',
+						left: '0px',
+					}}>
+					Eb
+				</span>
+				<span className='chord' style={{ top: '2px', left: '25px' }}>
+					Ab
+				</span>
+			</div> */}
 			{lyricArray?.map((lyric, i) => {
+				console.log(lyric);
 				return (
-					<div data-id={i} className='one-line'>
-						<div>{findChordByPosition(i, chords)}</div>
-						<div>{lyric}</div>
+					<div data-id={i}>
+						{/* <div>{findChordByPosition(i, chords)}</div> */}
+
+						<span>{lyric}</span>
 					</div>
 				);
 			})}
